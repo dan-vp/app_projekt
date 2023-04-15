@@ -1,0 +1,10 @@
+1. Terminal öffnen
+
+2. mit "cd" in das Verzeichnis des docker_app Ordners navigieren
+
+3. "docker build -t app ." ausführen
+
+4. "docker run -p 8000:8000 app" ausführen (über http://localhost:8000 wird noch nichts zu sehen sein,
+    da wir erst noch die fastAPI Sachen integrieren müssen)
+
+5. In docker Desktop sollte jetzt unter "Containers" der Container mit dem Namen "app" zu sehen sein
